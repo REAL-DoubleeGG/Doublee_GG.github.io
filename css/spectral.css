@@ -1,0 +1,138 @@
+.text-hidden{
+    display: none;
+}
+
+.nav>li a{
+    margin: 0px 25px 0px 25px;
+    text-transform: uppercase;
+}
+
+.full{
+    background: 
+        linear-gradient(
+            rgba(0,0,0,.5), 
+            rgba(0,0,0,.5)
+        ),
+        url(https://unsplash.it/2560/1707?image=961) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: white;
+    height: 100vh;
+}
+
+.full .container-fluid{
+    padding-top: 17.5vh;
+}
+
+.full .container-fluid .row{
+    padding-top: 2.5vh;
+}
+
+.container:not(:first-of-type){
+    margin-top: 10em;
+    margin-bottom: 10em;
+}
+
+.plan .card-content{
+    padding: 0px;
+}
+
+.plan .card-title{
+    font-size: 2.5em;
+    padding: 20px !important;
+    border-left: 10px #fff solid;
+    margin-bottom: 20px !important;
+}
+
+.plan .price{
+    text-align: center;
+    padding: 20px;
+}
+
+.plan .price p:first-of-type{
+    font-size: 1.25em;
+}
+
+.plan .price p:last-of-type{
+    font-size: 4em;
+}
+
+.plan .price p:last-of-type small{
+    font-size: 0.5em;
+}
+
+.plan table{
+    width: 100%;
+}
+
+.plan table tr{
+    border-bottom: 1px #ecf0f1 solid;
+    text-align: center;
+}
+
+.plan table tr td{
+    padding: 20px;
+    font-size: 1.5em;
+}
+
+.plan .card-action{
+    text-align: center;
+}
+
+.plan .card-action a{
+    background-color: white;
+    color: black;
+}
+
+.why{
+    text-align: center;
+}
+
+.why h4{
+    padding: 20px;
+}
+
+.why img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.testi img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.why .row{
+    margin-bottom: 2.5em;
+    margin-top: 2.5em;
+}
+
+.why .row .col-md-4:nth-child(2){
+    border-left: 1px rgba(0, 0, 0, .25) solid;
+    border-right: 1px rgba(0, 0, 0, .25) solid;
+}
+
+.testi .card-title{
+    text-align: center;
+}
+
+.testi .title{
+    border-top: 1px solid rgba(160, 160, 160, 0.2);
+    padding: 20px;
+    color: white;
+}
+
+.testi .title p{
+    font-size: 1.25em;
+    text-align: right;
+}
+
+.social{
+    color: white;
+    font-size: 3em;
+    display: block;
+}
